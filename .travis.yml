@@ -1,4 +1,5 @@
 language: perl
 perl:
-  - 5.14
-install: 'PERL_CPANM_OPT="-L ~/perl5/perlbrew/perls/5.14/cpanm" cpanm -vv --installdeps --notest . || cat /home/vagrant/.cpanm/build.log'
+  - "5.10"
+  - "5.12"
+  - "5.14"
